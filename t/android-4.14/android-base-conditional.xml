@@ -48,10 +48,6 @@
 		<value type="bool">y</value>
 	</config>
 	<config>
-		<key>CONFIG_CFI_CLANG</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
 		<key>CONFIG_COMPAT</key>
 		<value type="bool">y</value>
 	</config>
@@ -61,10 +57,6 @@
 	</config>
 	<config>
 		<key>CONFIG_SETEND_EMULATION</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_SHADOW_CALL_STACK</key>
 		<value type="bool">y</value>
 	</config>
 	<config>
@@ -84,10 +76,6 @@
 		<value type="bool">y</value>
 	</config>
 	<config>
-		<key>CONFIG_KFENCE</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
 		<key>CONFIG_USERFAULTFD</key>
 		<value type="bool">y</value>
 	</config>
@@ -104,10 +92,6 @@
 	<config>
 		<key>CONFIG_DEVKMEM</key>
 		<value type="bool">n</value>
-	</config>
-	<config>
-		<key>CONFIG_KFENCE</key>
-		<value type="bool">y</value>
 	</config>
 	<config>
 		<key>CONFIG_PAGE_TABLE_ISOLATION</key>
@@ -139,10 +123,6 @@
 			<value type="bool">y</value>
 		</config>
 	</conditions>
-	<config>
-		<key>CONFIG_CFI_CLANG</key>
-		<value type="bool">y</value>
-	</config>
 	<config>
 		<key>CONFIG_BPF_JIT_ALWAYS_ON</key>
 		<value type="bool">y</value>
